@@ -3,6 +3,8 @@
 # Notes on MongoDB
 A place to keep some notes about [MongoDB][1].
 
+* [Installation (OS X)][2].
+
 
 ---
 [:arrow_backward:][back] ║ [:house:][home] ║ [:arrow_forward:][next]
@@ -10,7 +12,8 @@ A place to keep some notes about [MongoDB][1].
 <!-- navigation -->
 [home]: #
 [back]: #
-[next]: #
+[next]: README/installing.md
 
 <!-- links -->
 [1]: https://www.mongodb.org/
+[2]: README/installing.md
