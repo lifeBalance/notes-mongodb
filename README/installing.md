@@ -93,7 +93,7 @@ If we took the **manual** option, we'll just have to delete the same folder and 
 <!-- navigation -->
 [home]: ../README.md
 [back]: ../README.md
-[next]: #
+[next]: starting_mongod.md
 
 <!-- links -->
 [1]: https://www.mongodb.org/

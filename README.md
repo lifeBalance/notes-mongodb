@@ -3,7 +3,8 @@
 # Notes on MongoDB
 A place to keep some notes about [MongoDB][1].
 
-* [Installation (OS X)][2].
+* [Installation (OS X)][2]
+* [Starting the mongod process][3]
 
 
 ---
@@ -17,3 +18,4 @@ A place to keep some notes about [MongoDB][1].
 <!-- links -->
 [1]: https://www.mongodb.org/
 [2]: README/installing.md
+[3]: README/starting_mongod.md
