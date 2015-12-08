@@ -101,7 +101,7 @@ These are all perfectly viable ways of shutting the `mongod` process in a clean 
 <!-- navigation -->
 [home]: ../README.md
 [back]: installing.md
-[next]: #
+[next]: problems_starting_mongod.md
 
 
 <!-- links -->
