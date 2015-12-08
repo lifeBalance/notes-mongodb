@@ -86,7 +86,7 @@ But it could be easier to set this limits in a `.plist` file, adding the followi
 <!-- navigation -->
 [home]: ../README.md
 [back]: starting_mongod.md
-[next]: #
+[next]: configuration.md
 
 <!-- links -->
 [1]: https://www.mongodb.org/
