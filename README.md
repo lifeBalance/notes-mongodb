@@ -1,3 +1,5 @@
+<img src="README/img/logo.png" width="500" />
+
 # Notes on MongoDB
 A place to keep some notes about [MongoDB][1].
 
