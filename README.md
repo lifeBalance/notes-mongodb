@@ -8,6 +8,7 @@ A place to keep some notes about [MongoDB][1].
 * [Common problems when starting mongod][4]
 * [Configuration file][5]
 * [Loading mongod when booting OS X][6]
+* [Introduction to the MongoDB shell][7]
 
 
 ---
@@ -25,3 +26,4 @@ A place to keep some notes about [MongoDB][1].
 [4]: README/problems_starting_mongod.md
 [5]: README/configuration.md
 [6]: README/agent_mongod.md
+[7]: README/intro_shell.md

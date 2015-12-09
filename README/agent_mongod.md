@@ -97,7 +97,7 @@ To start it again we would use `start`; and we could use `load` or `unload` also
 <!-- navigation -->
 [home]: ../README.md
 [back]: configuration.md
-[next]: #
+[next]: intro_shell.md
 
 <!-- links -->
 [1]: https://en.wikipedia.org/wiki/Launchd
