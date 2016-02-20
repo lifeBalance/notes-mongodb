@@ -136,7 +136,7 @@ These are all perfectly viable ways of shutting the `mongod` process in a clean 
 <!-- navigation -->
 [home]: ../README.md
 [back]: homebrew_installation.md
-[next]: problems_starting_mongod.md
+[next]: agent_mongod.md
 
 
 <!-- links -->

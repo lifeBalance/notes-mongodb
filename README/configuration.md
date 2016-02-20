@@ -40,8 +40,8 @@ Check the [official documentation][3] for a detailed list of options.
 
 <!-- navigation -->
 [home]: ../README.md
-[back]: problems_starting_mongod.md
-[next]: agent_mongod.md
+[back]: agent_mongod.md
+[next]: problems_starting_mongod.md
 
 <!-- links -->
 [1]: https://www.mongodb.org/

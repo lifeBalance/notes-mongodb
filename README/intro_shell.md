@@ -162,7 +162,7 @@ If the command is successful the return value is `true`.
 
 <!-- navigation -->
 [home]: ../README.md
-[back]: agent_mongod.md
+[back]: configuration.md
 [next]: #
 
 <!-- links -->

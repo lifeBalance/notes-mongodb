@@ -1,5 +1,5 @@
 # Common problems starting mongod
-Some issues you may find when trying to start a `mongod` process.
+Regardless of the way you have installed [MongoDB][1], you may find some issues when trying to start a `mongod` process.
 
 ## No database
 Sometimes we get an error like:
@@ -85,8 +85,8 @@ But it could be easier to set this limits in a `.plist` file, adding the followi
 
 <!-- navigation -->
 [home]: ../README.md
-[back]: starting_mongod.md
-[next]: configuration.md
+[back]: configuration.md
+[next]: intro_shell.md
 
 <!-- links -->
 [1]: https://www.mongodb.org/
