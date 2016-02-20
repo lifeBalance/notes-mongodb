@@ -33,6 +33,7 @@ Then we can install [MongoDB][1] itself. We have several options here:
   ```bash
   $ brew install mongodb --devel
   ```
+
 ## Installing the MongoDB binaries
 In this case we are gonna install just the MongoDB binaries so let's run:
 ```
@@ -112,6 +113,14 @@ The `homebrew.mxcl.mongodb.plist` is an **XML** file which specifies the setting
 ```
 $ ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
 ```
+
+And then we have to run:
+```
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+```
+
+So that `launchctl` loads the file.
+
 ##### A couple of useful commands
 **OS X** uses the `launchctl` command to interface with the `launchd` daemon. So once we have the `.plist` file in place, we can use a couple of useful commands for start/stop the server:
 ```
@@ -122,6 +131,14 @@ And to start it again:
 ```
 $ launchctl start homebrew.mxcl.mongodb
 ```
+
+Even though these two commands can make our life easier, they're a bit too verbose, so a nice trick could be to create a couple of **shell aliases** for them:
+```
+alias startmongo='launchctl start homebrew.mxcl.mongodb'
+alias stopmongo='launchctl stop homebrew.mxcl.mongodb'
+```
+
+So `startmongo` and `stopmongo` are the two only commands we have to remember to start and stop the `mongod` process.
 
 #### Using a configuration file
 For those people who don't want/need having the `mongod` process launched at login, the **caveats** provide the alternative of using a **configuration file**:

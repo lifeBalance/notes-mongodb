@@ -1,4 +1,4 @@
-# Install MongoDB Manually
+# Installing MongoDB Manually
 If you can't or don't want to use [Homebrew][2] for installing MongoDB, in this section we are gonna explain how to do it manually:
 
 1. First of all we have to download the MongoDB binaries from the [MongoDB Download site][3]. We can do so from the command line:
